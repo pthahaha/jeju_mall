@@ -5,11 +5,14 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import ClickCount from './components/ClickCount.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    // eslint-disable-next-line vue/no-unused-components
+    ClickCount
   }
 }
 </script>

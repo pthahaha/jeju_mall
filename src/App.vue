@@ -1,20 +1,27 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Jeju Shopping Mall App"/>
+  <img alt="Ace-t logo" src="./assets/acet.png">
+  <my-component></my-component>
+  <VuePlay msg="vue.js로 이것저것 해보아요!"/>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import ClickCount from './components/ClickCount.vue'
-
+// import HelloWorld from './components/HelloWorld.vue'
+import VuePlay from './components/VuePlay.vue'
+//
+// var MyComponent = {
+//   template: '<p class="vue-play">Hello</p>'
+// }
 export default {
   name: 'App',
+
   components: {
-    HelloWorld,
-    // eslint-disable-next-line vue/no-unused-components
-    ClickCount
+    VuePlay
+    // 'my-component': MyComponent
   }
+
 }
+
 </script>
 
 <style>
